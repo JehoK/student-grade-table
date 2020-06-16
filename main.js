@@ -1,0 +1,5 @@
+var tableElement = document.querySelector("table");
+var gradeTable = new GradeTable(tableElement);
+var app = new App(gradeTable);
+
+app.start();

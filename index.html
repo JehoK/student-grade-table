@@ -3,33 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student-grade-table</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Student Grade Table</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="row">
-  <h1 class="col-8">Student Grade Table</h1>
-  <h4 class="col-4">Average Grade<span class="badge badge-secondary"></span></h4>
-</header>
+  <header>
+    <h1>Student Grade Table</h1>
+  </header>
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Course</th>
+        <th scope="col">Grade</th>
+      </tr>
+    </thead>
+    <tbody>
 
-<table class="table">
-  <thead class="table-dark">
-    <tr>
-      <th>Student Name</th>
-      <th>Course</th>
-      <th>Grade</th>
-    </tr>
-  </thead>
-  <tbody>
+    </tbody>
+  </table>
 
-  </tbody>
-</table>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="components/app.js"></script>
-<script src="components/grade-table.js"></script>
-<script src="components/page-header.js"></script>
-<script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="components/grade-table.js"></script>
+  <script src="components/app.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

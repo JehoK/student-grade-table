@@ -1,9 +1,5 @@
-var table = document.querySelector("table");
-var gradeTable = new GradeTable(table);
-
-
-var myHeader =document.querySelector("header");
-var newAverage = new PageHeader(myHeader);
-var app = new App(gradeTable, newAverage);
+var tableElement = document.querySelector("table");
+var gradeTable = new GradeTable(tableElement);
+var app = new App(gradeTable);
 
 app.start();

@@ -1,4 +1,5 @@
 class App {
+
   constructor(gradeTable, pageHeader) {
     this.gradeTable = gradeTable;
     this.pageHeader = pageHeader;

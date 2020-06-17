@@ -1,7 +1,20 @@
-body {
-  width: 1250px;
+body{
+  width:1300px;
   margin: auto;
 }
 span {
   margin: 0 5px;
+}
+.row {
+  margin: 1rem 1rem;
+}
+.input-group {
+  margin-bottom: 1rem;
+}
+button {
+  margin-left: 0.5rem;
+}
+.btnss {
+  display: flex;
+  justify-content: flex-end;
 }

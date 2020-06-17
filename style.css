@@ -1,12 +1,13 @@
 body{
-  width:1300px;
+  width:1400px;
   margin: auto;
 }
 span {
   margin: 0 5px;
 }
+
 .row {
-  margin: 1rem 1rem;
+  margin: 1rem 0;
 }
 .input-group {
   margin-bottom: 1rem;

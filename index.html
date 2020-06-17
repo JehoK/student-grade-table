@@ -10,25 +10,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 </head>
 <body>
-  <header class="container">
-    <div class="row justify-content-between">
+  <header class="row justify-content-around">
       <h1 class="col-6">Student Grade Table</h1>
       <h3 class="col-3">Average Grade<span class="badge badge-secondary"></span></h3>
-    </div>
   </header>
   <div class="row justify-content-around">
-      <table class="table table-striped col-6">
+      <table class="table table-striped col-7">
         <thead class="thead-dark">
           <tr>
             <th scope="col">Name</th>
             <th scope="col">Course</th>
             <th scope="col">Grade</th>
+            <th scope="col"></th>
           </tr>
         </thead>
         <tbody>
 
         </tbody>
       </table>
+
+      <p class="d-none">No Grades Recorded.</p>
 
       <form class="col-3">
         <div class="form-group">
@@ -47,7 +48,7 @@
         </div>
         <div class="btnss">
            <button type="submit" class="btn btn-primary">Add</button>
-           <button type="submit" class="btn btn-danger">Cancel</button>
+           <button type="submit" class="btn btn-light">Cancel</button>
         </div>
       </form>
 

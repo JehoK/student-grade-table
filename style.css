@@ -1,5 +1,7 @@
 body {
-  width: 1000px;
+  width: 1250px;
   margin: auto;
-  text-align: center;
+}
+span {
+  margin: 0 5px;
 }

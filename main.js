@@ -1,11 +1,11 @@
-var tableElement = document.querySelector("table");
-var headerElement = document.querySelector("header");
-var formElement = document.querySelector("form");
-var pElement = document.querySelector("p");
+const tableElement = document.querySelector("table");
+const headerElement = document.querySelector("header");
+const formElement = document.querySelector("form");
+const noGradeElement = document.querySelector("p");
 
-var gradeForm = new GradeForm(formElement);
-var pageHeader = new PageHeader(headerElement);
-var gradeTable = new GradeTable(tableElement, pElement);
-var app = new App(gradeTable, pageHeader, gradeForm);
+const gradeForm = new GradeForm(formElement);
+const pageHeader = new PageHeader(headerElement);
+const gradeTable = new GradeTable(tableElement, noGradeElement);
+const app = new App(gradeTable, pageHeader, gradeForm);
 
 app.start();
